@@ -1,0 +1,226 @@
+.card-body {
+    padding: 25px 0;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgba(17, 24, 39, 0.8);
+    color: rgb(225, 225, 225);
+    box-shadow: rgba(138, 62, 183, 0.3) 5px 5px 15px;
+}
+
+.comments-title-box {
+    margin: 20px;
+    padding: 5px;
+}
+
+.mb-2 {
+    color: white;
+    margin: -3px;
+}
+
+.small-opacity {
+    opacity: 0.5;
+}
+
+.heart {
+    cursor: pointer;
+    transition: color 0.25s;
+    color: red;
+}
+
+.btn-primary {
+    margin: 10px;
+    border: none;
+    background: #6332c5;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: rgba(138, 62, 183, 0.3);
+}
+
+.edit-icon {
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mt-5 {
+    color: white;
+}
+
+.comments-section {
+    padding: 25px 0;
+    margin: 25px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgba(17, 24, 39, 0.8);
+    color: rgb(225, 225, 225);
+    box-shadow: rgba(138, 62, 183, 0.3) 5px 5px 15px;
+}
+
+.form-control {
+    text-align: left;
+}
+
+.comment {
+    background: navy;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.comment-header {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.comment-image {
+    flex: 0 0 auto; /* Do not grow or shrink */
+    margin-right: 20px; /* Space between image and comment text */
+    text-align: center; /* Center the text below the image */
+    width: 100px; /* Fixed width for the image container */
+}
+
+.comment-image img {
+    width: 100px; /* Make the image fill the container */
+    height: 100px; /* Keep the aspect ratio of the image */
+    border-radius: 50%; /* Circular image */
+    object-fit: cover;
+}
+
+.comment-body {
+    flex: 1; /* Take the remaining space */
+    padding-top: 10px; /* Align top of the text with the image */
+}
+
+.link-primary {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* Removes underline */
+}
+
+.link-primary:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+.delete-icon {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.btn-facebook:hover {
+    background-color: #2d4373;
+    color: white;
+}
+
+.btn-x {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.btn-x:hover {
+    background-color: #0d8ddc;
+    color: white;
+}
+
+.x-icon {
+    font: normal normal normal 12px/18px 'Helvetica Neue', Arial, sans-serif;
+    user-select: none;
+    --rem: 16;
+    font-size: 13px;
+    line-height: 26px;
+    white-space: nowrap;
+    text-align: left;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background: transparent url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='32' height='32' fill='none'/%3E%3Cpath d='M17.9686 14.1623L26.7065 4H24.6358L17.0488 12.8238L10.9891 4H4L13.1634 17.3432L4 28H6.07069L14.0827 18.6817L20.4822 28H27.4714L17.9681 14.1623H17.9686ZM15.1326 17.4607L14.2041 16.132L6.81679 5.55961H9.99723L15.9589 14.0919L16.8873 15.4206L24.6368 26.5113H21.4564L15.1326 17.4612V17.4607Z' fill='white'/%3E%3C/svg%3E%0A") no-repeat 0 0;
+    top: 4px;
+    height: 18px;
+    width: 18px;
+}
+
+.sponsor-button {
+    display: none;
+    margin: 0 auto;
+}
+
+.sponsor-header {
+    display: none;
+    background-color: #76ab17;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#view-interested-btn {
+    display: block;
+    text-align: center;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#list-of-usernames {
+    display: flex;
+}
+
+.interestedUser {
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 20%;
+    font-size: 1.2rem;
+}
+
+.interestedUser:hover {
+    cursor: pointer;
+    background: rgb(0,14,35);
+    background: linear-gradient(319deg, rgba(0,14,35,0.7) 0%, rgba(26,22,154,0.7) 49%, rgba(0,14,35,0.7) 100%);
+}
+
+#container-interested-users {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.already-pressed-btn {
+    background-image: radial-gradient(100% 100% at 100% 0, yellowgreen 0, green 100%);
+}
+
+.already-pressed-btn:focus {
+    box-shadow: green 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, green 0 -3px 0 inset;
+}
+
+.already-pressed-btn:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, darkgreen 0 -3px 0 inset;
+}
+
+.already-pressed-btn:active {
+    box-shadow: green 0 3px 7px inset;
+}
